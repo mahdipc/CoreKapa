@@ -1,0 +1,94 @@
+{
+  "version": 3,
+  "targets": {
+    "net6.0": {
+      "Kappa.Models/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/Kappa.Models.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Kappa.Models.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Kappa.Models/1.0.0": {
+      "type": "project",
+      "path": "../../Common/Kappa.Models/Kappa.Models.csproj",
+      "msbuildProject": "../../Common/Kappa.Models/Kappa.Models.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net6.0": [
+      "Kappa.Models >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\MahDi\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "E:\\pro101\\Asp.Net\\CoreKapa\\Services\\Kappa.Workflow\\Kappa.Workflow.csproj",
+      "projectName": "Kappa.Workflow",
+      "projectPath": "E:\\pro101\\Asp.Net\\CoreKapa\\Services\\Kappa.Workflow\\Kappa.Workflow.csproj",
+      "packagesPath": "C:\\Users\\MahDi\\.nuget\\packages\\",
+      "outputPath": "E:\\pro101\\Asp.Net\\CoreKapa\\Services\\Kappa.Workflow\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\MahDi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net6.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "projectReferences": {
+            "E:\\pro101\\Asp.Net\\CoreKapa\\Common\\Kappa.Models\\Kappa.Models.csproj": {
+              "projectPath": "E:\\pro101\\Asp.Net\\CoreKapa\\Common\\Kappa.Models\\Kappa.Models.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net6.0": {
+        "targetAlias": "net6.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

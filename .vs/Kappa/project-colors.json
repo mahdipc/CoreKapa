@@ -1,0 +1,16 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "82f97000-a789-40e7-be0f-6a03f8521edf": {
+      "ProjectGuid": "82f97000-a789-40e7-be0f-6a03f8521edf",
+      "DisplayName": "Kappa.Workflow",
+      "ColorIndex": 0
+    },
+    "ece3e7fd-9b51-4898-bca0-8c69cb4b6811": {
+      "ProjectGuid": "ece3e7fd-9b51-4898-bca0-8c69cb4b6811",
+      "DisplayName": "Kappa.Models",
+      "ColorIndex": 1
+    }
+  },
+  "NextColorIndex": 2
+}
